@@ -2,6 +2,10 @@
 
 LearnHub is a comprehensive online learning platform built with Next.js 15 that allows users to browse, purchase, and take courses on various topics. The platform supports both students and instructors, with features like course creation, payment processing, progress tracking, and more.
 
+## 🎥 Platform Overview
+
+For a complete overview of the platform features, watch our [website overview video](https://drive.google.com/file/d/1argF_Othq1w10Wk0HKcn2j7naJWNFoY2/view?usp=sharing).
+
 ## 🚀 Technologies Used
 
 ### Frontend
@@ -27,6 +31,9 @@ LearnHub is a comprehensive online learning platform built with Next.js 15 that 
 - **@mux/mux-node** for server-side integration
 - **@vercel/blob** for file storage
 - **Google Cloud Storage** for additional storage options
+
+### AI Features
+- **Gemini AI** for AI personality chat features
 
 ### Additional Libraries
 - **Zustand** for state management
@@ -74,6 +81,19 @@ LearnHub is a comprehensive online learning platform built with Next.js 15 that 
 
 6. **Open your browser:**
    Navigate to `http://localhost:3000` to view the application.
+
+## 🤖 AI Personalities Feature
+
+LearnHub includes an AI personalities feature powered by Gemini AI, offering specialized chat experiences with different AI personas:
+
+- **Legal Advisor AI** - Expert in legal consultation and contract analysis
+- **Medical Consultant AI** - Specialized in medical information and health guidance
+- **Education Tutor AI** - Dedicated to teaching and learning support
+- **Tech Developer AI** - Full-stack development expert
+- **Wellness Therapist AI** - Supportive mental health companion
+- **Business Consultant AI** - Strategic business advisor
+
+To enable this feature, configure your Gemini API key in the environment variables.
 
 ## 🔐 Environment Variables
 
@@ -163,6 +183,12 @@ The application can be deployed to any platform that supports Next.js applicatio
    ```
 
 ## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
